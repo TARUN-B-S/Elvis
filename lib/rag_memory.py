@@ -1,7 +1,9 @@
 import chromadb
+
 client=chromadb.PersistentClient(path="./memory")
 collection=client.get_or_create_collection("elvis_memory")
 doc_id=collection.count()
+
 def add_text(text):
     global doc_id
 

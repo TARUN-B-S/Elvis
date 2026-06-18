@@ -1,4 +1,5 @@
-import ollama_request as oll_req
+import lib.ollama_request as oll_req
+
 context = ""
 history = ""
 total_history = ""
