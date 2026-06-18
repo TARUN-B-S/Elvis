@@ -1,0 +1,3 @@
+*.excalidraw
+venv
+__pycache__
