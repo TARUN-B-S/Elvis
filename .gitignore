@@ -1,3 +1,7 @@
 *.excalidraw
 venv
 __pycache__
+*.pdf
+*.odt
+memory
+conversation_history.txt
