@@ -11,6 +11,7 @@ def extract_text_from_pdf(pdf_path):
     return text
 
 def convert_docx_to_pdf(docx_path):
+    pdf_path = docx_path.replace(".pdf", ".pdf")
     pdf_path = docx_path.replace(".docx", ".pdf")
     pdf_path = docx_path.replace(".odt", ".pdf")  # Handle .odt files as well
     pdf_path = docx_path.replace(".doc", ".pdf")  # Handle .doc files as well
